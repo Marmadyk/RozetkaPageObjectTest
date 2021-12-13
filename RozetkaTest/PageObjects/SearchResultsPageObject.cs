@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
 namespace RozetkaPageObjectTest.PageObjects
 {
@@ -13,20 +11,11 @@ namespace RozetkaPageObjectTest.PageObjects
         private readonly By addToCartButton = By.XPath("//button[contains(@class,'buy-button')]/ancestor::app-buy-button");
         private readonly By cartButton = By.XPath("//button[contains(@class,'header__button--active')]");
         private readonly By counterOfItemsInCart = By.XPath("//span[contains(@class,'counter')]");
-        //private readonly By sortByList = By.XPath("//div[@data-filter-name='producer']//li");
 
         public SearchResultsPageObject(IWebDriver driver)
         {
             this.driver = driver;
         }
-
-        //public SearchResultsPageObject SortByProducerList(string producerName)
-        //{
-        //    Waiters.WaitElement(driver, sortByList);
-        //    var sortBy = driver.FindElements(sortByList).First(x => x.Text == producerName);
-        //    sortBy.Click();
-        //    return this;
-        //}
 
         public void ChoseProducer()
         {
