@@ -34,7 +34,7 @@ namespace RozetkaPageObjectTest
             searchPage
                 .GoToCart();
 
-            
+
             Assert.AreEqual(expectedCountOfItemsInCart, searchPage.AmountInCart(), "not enough items");
 
             var cartPage = new CartPageObject(driver);
@@ -46,5 +46,7 @@ namespace RozetkaPageObjectTest
         {
             driver.Quit();
         }
+
+
     }
 }

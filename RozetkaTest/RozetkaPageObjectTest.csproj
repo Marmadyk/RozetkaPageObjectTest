@@ -21,13 +21,14 @@
     <None Remove="DotNetSeleniumExtras.WaitHelpers" />
     <None Remove="PageObjects\" />
     <None Remove="Tests\" />
-    <None Remove="resources\" />
     <None Remove="util\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PageObjects\" />
     <Folder Include="Tests\" />
-    <Folder Include="resources\" />
     <Folder Include="util\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\net5.0\laptop.xml" />
   </ItemGroup>
 </Project>
