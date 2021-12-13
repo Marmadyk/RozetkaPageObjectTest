@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using RozetkaPageObjectTest.PageObjects;
 
@@ -28,7 +27,6 @@ namespace RozetkaPageObjectTest
             var searchPage = new SearchResultsPageObject(driver);
             searchPage
                 .ChoseProducer();
-                //.SortByProducerList("A");
             searchPage
                 .SortItems();
             searchPage

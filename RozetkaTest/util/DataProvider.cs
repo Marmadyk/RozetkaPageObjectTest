@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections;
 using System.Linq;
-using System.Xml;
 using System.Xml.Linq;
-using OpenQA.Selenium;
 
 namespace RozetkaPageObjectTest.util
 {
