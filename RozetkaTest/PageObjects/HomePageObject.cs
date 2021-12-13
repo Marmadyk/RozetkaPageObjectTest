@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using RozetkaPageObjectTest.util;
 
 namespace RozetkaPageObjectTest.PageObjects
 {
