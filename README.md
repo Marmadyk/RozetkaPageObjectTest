@@ -1,2 +1,3 @@
-# RozetkaPageObjectTest
-Liubomyr Lebedyn HT#4
+# RozetkaTest
+SmokeTest
+Liubomyr Lebedyn (Home Task "Rozetka")
