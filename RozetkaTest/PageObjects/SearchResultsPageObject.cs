@@ -1,4 +1,5 @@
 ﻿using OpenQA.Selenium;
+using RozetkaPageObjectTest.util;
 
 namespace RozetkaPageObjectTest.PageObjects
 {
@@ -6,6 +7,7 @@ namespace RozetkaPageObjectTest.PageObjects
     {
         private IWebDriver driver;
 
+        private readonly By searchProducer = By.XPath("//span[normalize-space(text())='Бренд']/parent::button//following-sibling::div//input[contains(@class,'sidebar-search__input')]");
         private readonly By appleProducer = By.XPath("//a[contains(@href,'producer=apple')]/parent::li");
         private readonly By sortFromExpensiveToCheap = By.CssSelector("option[value~=expensive]");
         private readonly By addToCartButton = By.XPath("//button[contains(@class,'buy-button')]/ancestor::app-buy-button");
@@ -19,6 +21,8 @@ namespace RozetkaPageObjectTest.PageObjects
 
         public void ChoseProducer()
         {
+            Waiters.WaitElement(driver, searchProducer);
+            driver.FindElement(searchProducer).SendKeys(DataWriter.GetProducer());
             Waiters.WaitElement(driver, appleProducer);
             driver.FindElement(appleProducer).Click();
         }

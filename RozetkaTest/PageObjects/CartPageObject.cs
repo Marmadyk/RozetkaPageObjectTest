@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using OpenQA.Selenium;
+using RozetkaPageObjectTest.util;
 
 namespace RozetkaPageObjectTest.PageObjects
 {
@@ -18,9 +19,11 @@ namespace RozetkaPageObjectTest.PageObjects
         public bool AmountInCart()
         {
             Waiters.WaitElement(driver, totalAmountInCart);
+            var topAmount = DataWriter.GetTopAmount();
             var amountInCart = driver.FindElement(totalAmountInCart).Text;
             int.TryParse(string.Join("", amountInCart.Where(c => char.IsDigit(c))), out int sumInCart);
-            bool compareAmountInCart = (sumInCart/27) < 50000;
+            int.TryParse(string.Join("", topAmount.Where(x => char.IsDigit(x))), out int topAmountToCompare);
+            bool compareAmountInCart = (sumInCart/27) < topAmountToCompare;
             return compareAmountInCart;
         }
     }

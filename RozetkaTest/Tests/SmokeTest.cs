@@ -1,13 +1,13 @@
 ﻿using NUnit.Framework;
 using OpenQA.Selenium;
 using RozetkaPageObjectTest.PageObjects;
+using RozetkaPageObjectTest.util;
 
 namespace RozetkaPageObjectTest
 {
     public class Tests
     {
         private IWebDriver driver;
-        private const string expectedCountOfItemsInCart = "1";
 
         [SetUp]
         public void Setup()
@@ -35,7 +35,7 @@ namespace RozetkaPageObjectTest
                 .GoToCart();
 
 
-            Assert.AreEqual(expectedCountOfItemsInCart, searchPage.AmountInCart(), "not enough items");
+            Assert.AreEqual(DataWriter.GetCounter(), searchPage.AmountInCart(), "not enough items");
 
             var cartPage = new CartPageObject(driver);
             Assert.IsTrue(cartPage.AmountInCart());
