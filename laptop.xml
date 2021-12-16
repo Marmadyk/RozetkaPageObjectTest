@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<laptops>
+  <data name="laptop">
+    <company>Apple</company>
+    <counter>1</counter>
+    <topAmount>50000</topAmount>
+  </data>
+</laptops>
