@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "eDUKl8FSwdCeDkkfqDp3CQWoJ6Bd33ZJLaun11HqKzUH4PUfp+zDkoSOaAIIFLMJr01BQwF+9eN5VxWvZWWVcQ==",
+  "success": true,
+  "projectFilePath": "/Users/applecity/GitProjects/RozetkaPageObjectTest/RozetkaTest/RozetkaPageObjectTest.csproj",
+  "expectedPackageFiles": [
+    "/Users/applecity/.nuget/packages/dotnetseleniumextras.waithelpers/3.11.0/dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.net.test.sdk/16.5.0/microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.testplatform.objectmodel/16.5.0/microsoft.testplatform.objectmodel.16.5.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/microsoft.testplatform.testhost/16.5.0/microsoft.testplatform.testhost.16.5.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/nuget.frameworks/5.0.0/nuget.frameworks.5.0.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/nunit/3.13.2/nunit.3.13.2.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/nunit3testadapter/4.1.0/nunit3testadapter.4.1.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/selenium.webdriver/4.1.0/selenium.webdriver.4.1.0.nupkg.sha512",
+    "/Users/applecity/.nuget/packages/selenium.webdriver.chromedriver/96.0.4664.4500/selenium.webdriver.chromedriver.96.0.4664.4500.nupkg.sha512"
+  ],
+  "logs": []
+}

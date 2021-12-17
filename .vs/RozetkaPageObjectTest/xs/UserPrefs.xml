@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{3273B4EC-4A10-4D72-8286-F810F2AF8444}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RozetkaTest/Tests/SmokeTest.cs">
+    <Files>
+      <File FileName="RozetkaTest/Tests/SmokeTest.cs" Line="43" Column="1" />
+      <File FileName="RozetkaTest/PageObjects/HomePageObject.cs" />
+      <File FileName="RozetkaTest/PageObjects/SearchResultsPageObject.cs" />
+      <File FileName="RozetkaTest/PageObjects/CartPageObject.cs" />
+      <File FileName="RozetkaTest/util/DataProvider.cs" Line="72" Column="62" />
+      <File FileName="RozetkaTest/bin/Debug/net5.0/laptop.xml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RozetkaPageObjectTest" expanded="True">
+            <Node name="RozetkaPageObjectTest" expanded="True">
+              <Node name="bin" expanded="True">
+                <Node name="Debug" expanded="True">
+                  <Node name="net5.0" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="PageObjects" expanded="True" />
+              <Node name="Tests" expanded="True">
+                <Node name="SmokeTest.cs" selected="True" />
+              </Node>
+              <Node name="util" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="RozetkaPageObjectTest" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.RozetkaPageObjectTest PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
